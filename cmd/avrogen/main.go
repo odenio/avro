@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hamba/avro/v2/gen"
+	"github.com/odenio/avro/v2/gen"
 )
 
 type rawOpts struct {

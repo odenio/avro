@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hamba/avro/v2"
+	"github.com/odenio/avro/v2"
 )
 
 func ExampleParse() {

@@ -1,11 +1,11 @@
 ![Logo](http://svg.wiersma.co.za/hamba/project?title=avro&tag=A%20fast%20Go%20avro%20codec)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/hamba/avro)](https://goreportcard.com/report/github.com/hamba/avro)
-[![Build Status](https://github.com/hamba/avro/actions/workflows/test.yml/badge.svg)](https://github.com/hamba/avro/actions)
-[![Coverage Status](https://coveralls.io/repos/github/hamba/avro/badge.svg?branch=master)](https://coveralls.io/github/hamba/avro?branch=master)
-[![GoDoc](https://godoc.org/github.com/hamba/avro?status.svg)](https://godoc.org/github.com/hamba/avro)
-[![GitHub release](https://img.shields.io/github/release/hamba/avro.svg)](https://github.com/hamba/avro/releases)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hamba/avro/master/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/odenio/avro)](https://goreportcard.com/report/github.com/odenio/avro)
+[![Build Status](https://github.com/odenio/avro/actions/workflows/test.yml/badge.svg)](https://github.com/odenio/avro/actions)
+[![Coverage Status](https://coveralls.io/repos/github/odenio/avro/badge.svg?branch=master)](https://coveralls.io/github/odenio/avro?branch=master)
+[![GoDoc](https://godoc.org/github.com/odenio/avro?status.svg)](https://godoc.org/github.com/odenio/avro)
+[![GitHub release](https://img.shields.io/github/release/odenio/avro.svg)](https://github.com/odenio/avro/releases)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/odenio/avro/master/LICENSE)
 
 A fast Go avro codec
 
@@ -14,7 +14,7 @@ A fast Go avro codec
 Install with:
 
 ```shell
-go get github.com/hamba/avro/v2
+go get github.com/odenio/avro/v2
 ```
 
 ## Usage
@@ -58,7 +58,7 @@ fmt.Println(out)
 // Outputs: {27 foo}
 ```
 
-More examples in the [godoc](https://godoc.org/github.com/hamba/avro).
+More examples in the [godoc](https://godoc.org/github.com/odenio/avro).
 
 #### Types Conversions
 
@@ -136,7 +136,7 @@ Go structs can be generated for you from the schema. The types generated follow 
 Install the struct generator with:
 
 ```shell
-go install github.com/hamba/avro/v2/cmd/avrogen@<version>
+go install github.com/odenio/avro/v2/cmd/avrogen@<version>
 ```
 
 Example usage assuming there's a valid schema in `in.avsc`:
